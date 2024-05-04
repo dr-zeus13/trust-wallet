@@ -47,4 +47,4 @@ Body: {"address": "0x1234567890..."}
 
 ## Please note:
 
-Appropriate comments have been added, some keypoints can be seached in the repository by `Note` or `TODO`
+Appropriate comments have been added, some keypoints can be seached in the repository by `NOTE` or `TODO`
