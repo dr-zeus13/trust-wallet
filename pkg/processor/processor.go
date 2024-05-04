@@ -74,7 +74,7 @@ func (p *Processor) processTransactionsForAddress(address string) {
 	// and update the parser's transactions mapping.
 	// This function will depend on your specific requirements and the
 	// JSON-RPC methods available for fetching transactions.
-	fmt.Println("Processing transactions for address: ", address)
+	fmt.Println("\nProcessing transactions for address: ", address)
 
 	// Send to user via Notification Service
 	transactions := p.parser.GetTransactions(address)
