@@ -43,4 +43,8 @@ Once the Trust Wallet Ethereum Blockchain Parser is running, you can interact wi
 
 POST /subscribe
 Body: {"address": "0x1234567890..."}
- 
+
+
+## Please note:
+
+Appropriate comments have been added, some keypoints can be seached in the repository by `Note` or `TODO`
