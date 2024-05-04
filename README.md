@@ -44,7 +44,13 @@ Once the Trust Wallet Ethereum Blockchain Parser is running, you can interact wi
 POST /subscribe
 Body: {"address": "0x1234567890..."}
 
+curl --location --request GET 'localhost:8081/subscribe' \
+--header 'Content-Type: application/json' \
+--data '{
+    "address": "0x1234567890123456789012345678901234567890"
+}'
 
 ## Please note:
 
-Appropriate comments have been added, some keypoints can be seached in the repository by `NOTE` or `TODO`
+Appropriate comments have been added, some keypoints can be seached in the repository by `NOTE` or `TODO`.
+HTTP server is running on port **8081**
